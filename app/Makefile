@@ -62,7 +62,7 @@ else ifeq ($(COIN),AZERO_XL)
 # XL app configuration
 DEFINES += APP_STANDARD SUBSTRATE_PARSER_FULL
 APPNAME = "Aleph Zero XL"
-APPPATH = "44'/643'"
+APPPATH = "44'/643'" --path "44'/354'"
 
 else
 define error_message
